@@ -1,0 +1,18 @@
+
+# Let's say we need to calculate the electricity consumption services.
+# In the variable rate, we have an electricity tariff of 1.68, and in the variable value,
+# we have the value of the meter reading, set it to a reasonable integer in kilowatts.
+# Calculate and place the electricity bill in the variable payment.
+
+rate = 1.68
+value = 6
+payment = rate * value
+
+# Let's concatenate these two variables through a space character and put the result in a variable full_name.
+
+first_name = 'Shymanska'
+last_name = 'Mariia'
+full_name = first_name + ' ' + last_name
+
+print(full_name)
+
