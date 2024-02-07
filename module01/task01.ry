@@ -16,3 +16,16 @@ full_name = first_name + ' ' + last_name
 
 print(full_name)
 
+# The length variable contains the length, and the width variable contains the width of the room.
+# It is necessary to calculate the area of the room and place the result in the variable area.
+# Add a show variable in which you place a line with the following pattern:
+# 'With width <width> and length <length> of the room, its area is equal to <area value>'.
+
+length = 2.75
+width = 1.75
+area = length * width
+show = f"With width {width} and length {length} of the room, its area is equal to {area}"
+
+print(show)
+
+

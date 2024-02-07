@@ -1,0 +1,27 @@
+import math
+
+# It is necessary to calculate the roots of the quadratic equation.
+
+# a · x2 + b · x + c = 0
+
+# Set the variable coefficients a, b, c with values of -2, 7, -6 respectively
+
+# Place the discriminant of the equation in the variable D
+
+# D = b2 - 4 · a · c
+
+# Place the roots of the equation in variables x1 and x2, respectively.
+
+# x1 = (-b + D0.5) / (2 · a)
+
+# x2 = (-b - D0.5) / (2 · a)
+
+
+
+a = -2
+b = 7
+c = -6
+D = b ** 2 - 4 * a * c
+
+x1 = (-b + math.sqrt(D)) / (2 * a)
+x2 = (-b - math.sqrt(D)) / (2 * a)

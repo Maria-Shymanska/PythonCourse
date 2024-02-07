@@ -1,0 +1,18 @@
+
+
+# password, username
+# admin and guest
+# alt + shift + up/down
+
+username = input('Enter your username please:')
+password = input ('Enter your password please:')
+
+if username == 'admin':
+    if password == 'quetry':
+        print('Login successful! Welcome admin!')
+    elif password == '12345':
+        print ('Weak password! Change it immediately')
+    else:
+        print('inccorect password')     
+else:
+    print('Go to schoole')
