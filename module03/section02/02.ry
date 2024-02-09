@@ -1,0 +1,14 @@
+
+
+def amount_payment(payment):
+
+    total_payment = 0
+
+    for amount in payment:
+        if amount > 0:
+            total_payment += amount
+
+            
+    return total_payment
+
+
