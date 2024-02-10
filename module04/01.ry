@@ -1,0 +1,26 @@
+# to add one element in the end of the list method append
+
+fruit_list = ['apple', 'orange', 'banana', 'pear']
+
+fruit_list.append("pomegranate")
+
+print(fruit_list)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
