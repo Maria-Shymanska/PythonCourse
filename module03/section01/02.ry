@@ -43,7 +43,10 @@ list3 = [6, 7, 8, 9]
 
 print(my_sum(*list1, *list2, *list3))
 
-# function to check if the type is the same as a type of a first parameter
+
+
+
+
 
 
 
