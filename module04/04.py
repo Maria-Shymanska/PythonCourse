@@ -19,7 +19,7 @@ def game(terra, power):
             if element <= power:
                 power += element
             else:
-                 break  
+                break  
     return power
 
     

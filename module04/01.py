@@ -24,11 +24,6 @@ def lookup_key(data, value):
 print(lookup_key({'key1': 1, 'key2': 2, 'key3': 3, 'key4': 2}, 2))
 
 
-            
-            
-            
-
-
 
 
 
