@@ -1,5 +1,4 @@
-
-name = 'Oleh Ivan Stefan Yan Io'
+name = "Oleh Ivan Stefan Yan Io"
 
 l = name.split()
 print(l)

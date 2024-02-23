@@ -1,6 +1,4 @@
-
-
-fruit_list = ['mango', 'apple', 'apple', 'pear', 'banana', 'pomegranate']
+fruit_list = ["mango", "apple", "apple", "pear", "banana", "pomegranate"]
 
 fruit_list.append("orange")
 

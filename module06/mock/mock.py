@@ -20,7 +20,3 @@ def get_mocked_user():
 if __name__ == "__main__":
     mock = get_mocked_user()
     print(mock)
-
-
-
-

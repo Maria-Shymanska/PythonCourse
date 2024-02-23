@@ -1,12 +1,10 @@
-
-
-age = int(input('how old are you >>>'))       
+age = int(input("how old are you >>>"))
 
 if age > 18:
-    print('Here is your beer') 
+    print("Here is your beer")
 elif age == 18:
-    print('Congrats! Here is your first beer')
+    print("Congrats! Here is your first beer")
 elif age == 17:
-    print('Almost there. One year to wait')
+    print("Almost there. One year to wait")
 else:
-    print('You are kid! go home') 
+    print("You are kid! go home")
