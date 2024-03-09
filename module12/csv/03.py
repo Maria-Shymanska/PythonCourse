@@ -4,7 +4,7 @@ country_codes = {}
 
 filename = "countries.csv"
 
-with open("countries.csv", "r") as f:
+with open("countries.csv", "w") as f:
     reader = csv.reader(f)
     header = next(reader)
     for line in reader:
